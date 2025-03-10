@@ -1,13 +1,13 @@
-# 🔐 Env Encryptor
+# 🔐 Env manager
 
-**env-encryptor** is a CLI tool for securely encrypting, decrypting, and managing `.env` files with cloud storage integration.
+**envim** is a CLI tool for securely encrypting, decrypting, and managing `.env` files with cloud storage integration.
 
 
 ## 📦 Installation
 To install this package globally, run:
 
 ```
-npm i env-encryptor
+npm i envim
 ```
 
 
@@ -88,11 +88,11 @@ npx envim pull --all
 ## ❌ Delete a File from Cloud Storage
 To delete a specific file from cloud storage:
 ```
-npx env-manager delete .env.enc
+npx envim delete .env.enc
 ```
 To delete all files from cloud storage:
 ```
-npx env-manager delete --all
+npx envim delete --all
 ```
 
 
@@ -102,7 +102,7 @@ npx env-manager delete --all
 ## 📂 List Uploaded Files
 To list all files currently stored in cloud storage:
 ```
-npx env-manager list
+npx envim list
 ```
 
 
@@ -113,11 +113,11 @@ npx env-manager list
 ## ⚙️ Set API URL for Cloud Storage
 To configure the API endpoint used for uploading and downloading files:
 ```
-npx env-manager set-api-url https://your-api.com
+npx envim set-api-url https://your-api.com
 ```
 To retrieve the currently set API URL:
 ```
-npx env-manager get-api-url
+npx envim get-api-url
 ```
 
 
@@ -128,11 +128,11 @@ npx env-manager get-api-url
 # 🛠 Troubleshooting
 If you encounter issues, check the available commands:
 ```
-npx env-manager --help
+npx envim --help
 ```
 Check the installed version:
 ```
-npx env-manager --version
+npx envim --version
 ```
 
 
@@ -141,9 +141,7 @@ npx env-manager --version
 
 
 ## 📜 License
-Created by : [Abdillah AG](https://www.linkedin.com/in/abdillah-ag-930172167/)
-<br>
-MIT License © 2025 env-manager
+MIT License © 2025 envim
 
 
 ---
