@@ -1,0 +1,30 @@
+{
+  "name": "envim",
+  "version": "1.0.11",
+  "description": "CLI for management file .env",
+  "main": "src/manager.js",
+  "bin": {
+    "envim": "bin/env-manager.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ricoerian/env-manager"
+  },
+  "dependencies": {
+    "axios": "^1.8.2",
+    "commander": "^13.1.0",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "readline-sync": "^1.4.10"
+  },
+  "keywords": [
+    "env",
+    "env-manager"
+  ],
+  "author": "Rico Eriansyah, Fathur Rahman Nur, Kevin Owen",
+  "license": "MIT"
+}
