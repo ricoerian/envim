@@ -1,8 +1,8 @@
 {
   "name": "envim",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "CLI for management file .env",
-  "main": "src/manager.js",
+  "main": "src/encryptor.js",
   "bin": {
     "envim": "bin/env-manager.js"
   },
